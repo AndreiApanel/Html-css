@@ -1,0 +1,151 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Rejestracja</title>
+		<meta content="text/html; charset=utf-8" http-equiv="Conten-Type">
+			<link rel="stylesheet" href="../style/style.css" type="text/css"/>
+			<style>
+			
+			</style>
+		</head>
+		<body id="rej" link="gold" vlink="#000000" alink="white">
+			<a href="../index.html">
+				<h1>Temat ogolny</h1>
+			</a>
+			<form>
+				<p>Login:<input name="login" required><p>
+					<p>Haslo:<input type="password" name="login" required><p>
+						<p>
+							<input type="submit" value="Enter"/>
+						</form>
+						<ul>
+							<li>
+								<a href="../artykul/artykul.html">Artykul</a>
+							</li>
+							<li>
+								<a href="../Galeria Zajec/Galeria Zajec.html">Galeria Zajec</a>
+							</li>
+							<li>
+								<a href="../Katalog/Katalog.html">Katalog</a>
+							</li>
+							<li>
+								<a href="../Kontakt/Kontakt.html">Kontakt</a>
+							</li>
+						</ul>
+						<hr/>
+						<h2 align="center">Rejestracja</h2>
+						<table>
+							<form action="file.php" method="get" enctype="multipart/form-data">
+								<b>Nowy uzytkownik</b>
+								<tr>
+									<td>
+										<legend><label for="name">Wprowadz Imie</legend></label>
+									</td>
+									<td>
+										<input  id="name" type="text">
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<legend><label for="Nazwisko">Wprowadz Nazwisko</legend></label>
+									</td>
+									<td>
+										<input id="Nazwisko" name="Nazwisko" type="text"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<legend><label for="haslo">Wprowadz nowe haslo</legend></label>
+									</td>
+									<td>
+										<input id="haslo" type="password"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<legend>Powtorz nowe haslo</legend>
+									</td>
+									<td>
+										<input type="password"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<legend>Twoje zdjecie</legend>
+									</td>
+									<td>
+										<input type="file"/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<legend>Wprowadz adres e-mail</legend>
+									</td>
+									<td>
+										<input type="e-mail" name="e-mail" required></td>
+									</tr>
+									<tr>
+										<td>
+											<legend>Wprowadz strone inetrnetowe</legend>
+										</td>
+										<td>
+											<input id="htt" type="url" name="site" value="http://" required></td>
+										</tr>
+										<tr>
+											<td>
+												<legend>Jaki masz plec</legend>
+											</td>
+											<td>
+												<input name="plec" type="radio" value="M"/>
+												<label id="fie">M</label>
+												<input name="plec" type="radio" value="K"/>
+												<label id="fie">K</label>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<legend>Wybierz datu urodzenia</legend>
+											</td>
+											<td>
+												<input type="date" name="calendar"/>
+											</tr>
+											<tr id="fie">
+												<td>
+													<legend>Jakie instrument preferujesz</legend>
+												</td>
+												<td>
+													<input id="ins" type="checkbox">
+														<label for="ins">Cymbalki</label>
+														<input id="ins" type="checkbox" value="guitar">
+															<label for="ins">Guitar</label>
+															<input name="ins" type="checkbox" value="Klawiatury sterujace">
+																<label for="ins">Klawiatury sterujace</label>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<legend>O siebie</legend>
+															</td>
+															<td>
+																<textarea cols="30" rows="5" name="O Siebie">
+														</textarea>
+																<div class="but">
+																	<input type="submit" value="zachowac"/>
+																	<input type="reset" value="rezetowac"/>
+																</div>
+															</td>
+														</tr>
+														<tr>
+														<p style="text-align: center">
+															<td colspan="2">
+																<button id="zar">Zarejestrowac sie</button>
+															</td>
+														</p>
+													</tr>
+												</form>
+											</table>
+											<footer>
+				&copy;
+											</footer>
+										</body>
+									</html>

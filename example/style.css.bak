@@ -1,0 +1,183 @@
+/* task 1*/
+body {
+	padding:0;
+	margin:0 auto;
+}
+div {
+	border:1px solid #000;
+}
+.main {
+	width:103px;
+	height:104px;
+	margin-left:6px;
+	margin-top:10px;
+	position:relative;
+	z-index:2;
+}
+.Green {
+	background-color:green;
+	position:relative;
+	width:50px;
+	height:50px;
+	border-color:green;
+}
+.Black {
+	background-color:black;
+	position:relative;
+	width:50px;
+	height:50px;
+	border-color:black;
+}
+.White {
+	background-color:white;
+	position:relative;
+	width:50px;
+	height:50px;
+	left:51px;
+	top:-104px;
+	border-color:white;
+}
+.Red {
+	background-color:red;
+	position:relative;
+	width:50px;
+	height:50px;
+	left:51px;
+	top:-104px;
+	border-color:red;
+	z-index:2;
+}
+.Blue {
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-color:blue;
+	margin-left:88px;
+	margin-top:-20px;
+	border-color:blue;
+	z-index:1;
+}
+/* 2 */
+.gray {
+	float:left;
+	position:relative;
+	width:140px;
+	height:94px;
+	background: #ccc;
+	left:118px;
+	top:-106px;
+	z-index:2;
+	padding-left:10px; 
+	padding-right:0px;
+	padding-bottom:0px;
+	padding-top:10px;
+}
+.vinous {
+	width:128px;
+	height:82px;
+	background:#861e64;
+}
+.Blue_1 {
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-color:blue;
+	margin-left:148px;
+	margin-top:-20px;
+	border-color:blue;
+	z-index:3;
+}
+.Blue_2 {
+	width:50px;
+	height:50px;
+	background-color:blue;
+	margin-left:208px;
+	margin-top:-20px;
+	border-color:blue;
+	z-index:1;
+}
+/* task 2*/
+.bar{
+	display:block;A
+	top:100px;
+	width:532px;
+	height:110px;
+	background-color:gray;
+	position:relative;
+	display:inline-table;
+	padding-left:10px;
+	padding-top:10px;
+}
+.Menu_1{
+	margin-left:2px;
+	width:100px;
+	height:95px;
+	position:relative;
+	float:left;
+	border-color:gray;
+}
+.Menu_2{
+	
+	padding:0;
+	background-color:gray;
+	width:100px;
+	height:95px;
+	position:relative;
+	float:left;
+	margin-left:2px;
+	border-color:gray;
+}
+.Menu_3{
+	padding:0;
+	background-color:gray;
+	width:100px;
+	height:95px;
+	position:relative;
+	float:left;
+	margin-left:2px;
+	border-color:gray;
+}
+.Menu_4{
+	padding:0;
+	background-color:gray;
+	width:100px;
+	height:95px;
+	position:relative;
+	float:left;
+	margin-left:2px;
+	border-color:gray;
+}
+.Menu_5{
+	padding:0;
+	background-color:gray;
+	width:100px;
+	height:95px;
+	position:relative;
+	float:left;
+	margin-left:2px;
+	border-color:gray;
+}
+.Yellow {
+	text-align:center;
+	margin-top:-1px;
+	margin-left:-1px;
+	padding:0;
+	width:100px;
+	height:20px;
+	background-color:yellow;
+	border-color:yellow;
+}
+.image{
+	margin:10px;
+	width:78px;
+	height:55px;
+	border-color:gray;
+	background-size:cover;
+	float:left;
+	background-image:url(Tle.jpeg);
+}
+.Menu_1:hover .Yellow,.Menu_2:hover,.Menu_3:hover,.Menu_4:hover,.Menu_5:hover{
+	border:1px solid white;
+	background-color:white;
+	border:1px solid black;
+}
